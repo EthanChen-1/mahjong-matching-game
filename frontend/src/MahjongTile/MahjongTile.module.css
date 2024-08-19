@@ -1,0 +1,28 @@
+.tile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  background: linear-gradient(
+    45deg,
+    #06120d,
+    #133d2a,
+    #206748,
+    #2c9266,
+    #46e7a1
+  );
+  width: 80px;
+  height: 100px;
+  padding: 4px;
+}
+
+.inner {
+  display: inherit;
+  flex-direction: column;
+  background: linear-gradient(90deg, #fff, #fffaf0);
+  border-radius: 4px;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: space-evenly;
+}
